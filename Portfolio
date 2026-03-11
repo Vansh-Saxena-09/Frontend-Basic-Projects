@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vansh Saxena | Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #8e2de2 0%, #4a00e0 100%);
+            color: #333;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .portfolio-card {
+            background: white;
+            max-width: 450px;
+            width: 100%;
+            border-radius: 25px;
+            overflow: hidden;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+            text-align: center;
+            padding-bottom: 30px;
+        }
+
+        .header-bg {
+            background: #fafafa;
+            padding: 40px 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .profile-img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            border: 4px solid #4a00e0;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            margin: 10px 0 5px;
+            color: #4a00e0;
+            font-size: 26px;
+        }
+
+        .tagline {
+            color: #888;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 13px;
+            letter-spacing: 1px;
+        }
+
+        .info-section {
+            padding: 20px 35px;
+            text-align: left; /* Easier to read text */
+        }
+
+        .bio-text {
+            line-height: 1.6;
+            color: #555;
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+
+        .details-list {
+            margin-bottom: 25px;
+        }
+
+        .detail-row {
+            margin-bottom: 8px;
+            font-size: 14px;
+            color: #444;
+        }
+
+        .detail-row strong {
+            color: #4a00e0;
+        }
+
+        .social-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .social-links a {
+            text-decoration: none;
+            color: white;
+            background: #4a00e0;
+            padding: 10px 18px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .social-links a:hover {
+            background: #8e2de2;
+            transform: translateY(-2px);
+        }
+
+        .location-footer {
+            text-align: center;
+            font-size: 12px;
+            color: #aaa;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="portfolio-card">
+    <div class="header-bg">
+        <img src="vansh.jpg" alt="Vansh Saxena" class="profile-img">
+        <h1>Vansh Saxena</h1>
+        <p class="tagline">B.Tech CSE Student</p>
+    </div>
+
+    <div class="info-section">
+        <p class="bio-text">
+            I am a knowledge gainer and creative person. I am always looking to learn new things and improve my skills. 
+            In my free time, I enjoy playing video games and badminton. I also have a keen interest in reading business books.
+        </p>
+
+        <div class="details-list">
+            <div class="detail-row"><strong>University:</strong> Invertis University, Bareilly</div>
+            <div class="detail-row"><strong>Age:</strong> 20 Years</div>
+            <div class="detail-row"><strong>From:</strong> Rudrapur, Uttarakhand</div>
+        </div>
+        
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/vansh-saxena-7101592a6/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Vansh-Saxena-09" target="_blank">GitHub</a>
+            <a href="https://www.instagram.com/saxenavansh5" target="_blank">Instagram</a>
+        </div>
+
+        <div class="location-footer">
+            Built by Vansh • 2026
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
